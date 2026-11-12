@@ -1,0 +1,29 @@
+import java.util.*;
+public class home2 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number of Month: ");
+        int choice = sc.nextInt();
+        switch (choice) {
+            case 1: System.out.println("January");
+                break;
+            case 2: System.out.println("February");
+                break;
+            case 3: System.out.println("March");
+                break;
+            case 4: System.out.println("April");
+                break;
+            case 5 : System.out.println("May");
+                break;
+            case 6 : System.out.println("June");
+                break;
+            case 7 : System.out.println("July");
+                break;
+            case 8 : System.out.println("August");
+                break;
+            default: System.out.println("Invalid!!");
+                break;
+        }
+        sc.close();
+    }
+}

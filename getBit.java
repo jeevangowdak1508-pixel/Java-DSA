@@ -1,0 +1,14 @@
+// get the 3rd bit(pos=2) of a number n(0101) here we use ad or operation between n and bitMask
+public class getBit {
+    public static void main(String[] args) {
+        int n=5;
+        int pos = 2;
+        int bitMask = 1<<pos;
+        if((n & bitMask)==0){
+            System.out.println("Bit was zero");
+        }
+        else{
+            System.out.println("Bit was one");
+        }
+    }
+}
